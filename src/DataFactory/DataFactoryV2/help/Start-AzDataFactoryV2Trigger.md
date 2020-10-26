@@ -37,7 +37,7 @@ The **Start-AzDataFactoryV2Trigger** cmdlet starts a trigger in a data factory. 
 
 ### Example 1: Start a trigger
 ```
-Start-AzDataFactoryV2Trigger -ResourceGroupName "ADF" -DataFactoryName "WikiADF" -TriggerName "ScheduledTrigger"
+Start-AzDataFactoryV2Trigger -ResourceGroupName "ADF" -DataFactoryName "WikiADF" -Name "ScheduledTrigger"
 
 Confirm
 Are you sure you want to start trigger 'ScheduledTrigger' in data factory 'WikiADF'?
