@@ -42,11 +42,11 @@ jobs:
     displayName: Download Artifacts from Build Pipeline
     inputs:
       buildType: 'specific'
-      project: $(ProjectToDownloadArtifacts)
-      definition: $(BuildPipelineName)
+      project: '590cfd2a-581c-4dcb-a12e-6568ce786175'
+      definition: '2037'
       buildVersionToDownload: 'specific'
-      pipelineId: $(PipelineId)
-      artifactName: '$(ArtifactName)'
+      pipelineId: '589841'
+      artifactName: 'artifacts'
       targetPath: '$(Pipeline.Workspace)'
 
   - task: PowerShell@2
